@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void creSingleMathButton(String strMathButton, boolean isPortrait) {
         Button singleButton = new Button(this);
         singleButton.setText(strMathButton);
-        singleButton.setTextSize(18);
+        singleButton.setTextSize(12);
 
         // set layout for button
         GridLayout.LayoutParams gridParam = new GridLayout.LayoutParams();
